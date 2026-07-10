@@ -18,7 +18,8 @@ Textures/
 ├── Background/     1354  # 背景图 · background images
 ├── Role/            478  # 角色相关 UI · role-related UI
 ├── Share/            85  # 角色/武器分享大图 (2560×1440) · share cards
-└── Card/             50  # 标题卡片背景 (388×72) · title card backgrounds
+├── Card/             50  # 标题卡片背景 (388×72) · title card backgrounds
+└── Spine/            .  # 2D 骨骼动画工程 (.skel/.atlas/.png) · 2D skeletal animation projects
 ```
 
 ## 免责声明 Disclaimer
