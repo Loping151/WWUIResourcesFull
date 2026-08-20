@@ -135,7 +135,7 @@ bounds:2840,3908,44,36
 linnaipf_121
 bounds:589,3197,29,37
 linnaipf_122
-bounds:4423,2866,65,73
+bounds:5412,2736,65,73
 linnaipf_123
 bounds:8156,3172,24,198
 linnaipf_124
@@ -201,7 +201,8 @@ bounds:4297,2861,124,103
 linnaipf_142
 bounds:2266,2205,251,146
 linnaipf_143
-bounds:835,2307,320,92
+bounds:4413,2860,312,87
+offsets:8,5,320,92
 linnaipf_144
 bounds:1089,74,377,165
 linnaipf_145
