@@ -29,11 +29,11 @@ Text/
 │       └── lang_multi_text.db   # 主文本表，zh-Hans 313,690 条 · main string table
 ├── Localization/    18   # 引擎本地化资源 (.locres) · engine localization
 └── export/               # 可读导出 · readable exports
-    ├── <lang>/
-    │   ├── _index.md     # 表清单与条数 · table list & row counts
-    │   └── help.md       # 帮助文案（标题 + 配图名 + 正文）· help pages
-        ├── levelentity.jsonl # 关卡实体 206,046 条（不分语言）· level entities, language-neutral
-    └── <lang>/raw/  179  # 每表一份 JSONL，按 id 排序 · one JSONL per table
+    ├── levelentity.jsonl # 关卡实体 206,046 条，不分语言 · level entities, language-neutral
+    └── <lang>/
+        ├── _index.md     # 表清单与条数 · table list & row counts
+        ├── help.md       # 帮助文案（标题 + 配图名 + 正文）· help pages
+        └── raw/     179  # 每表一份 JSONL，按 id 排序 · one JSONL per table
 ```
 
 ## 说明 Notes
