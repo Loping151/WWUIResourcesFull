@@ -1,0 +1,5 @@
+# GitHub 单文件上限 100 MB。这张表 147 MB，超限，无法入库。
+# 它是关卡实体数据，不属于文案，缺失不影响 Text/ 的文本用途。
+# GitHub caps single files at 100 MB; this one is 147 MB and is level-entity
+# data rather than text, so its absence does not affect the text content here.
+Text/ConfigDB/db_level_entity.db

@@ -1,2 +1,10 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Text/ 是游戏内文件的原样镜像，必须逐字节保留 —— 不做行尾归一化，不做 diff。
+# Text/ mirrors in-game files verbatim: no EOL conversion, treat as binary.
+Text/** -text -diff
+Text/**/*.db binary
+Text/**/*.locres binary
+
+# 派生的可读导出是普通文本，正常处理，便于看增量 diff。
+# Derived exports are normal text so version-to-version diffs stay readable.
+Text/export/** text eol=lf
+Text/export/**/*.jsonl text eol=lf
