@@ -29,10 +29,11 @@ Text/
 │       └── lang_multi_text.db   # 主文本表，zh-Hans 313,690 条 · main string table
 ├── Localization/    18   # 引擎本地化资源 (.locres) · engine localization
 └── export/               # 可读导出 · readable exports
-    └── <lang>/
-        ├── _index.md     # 表清单与条数 · table list & row counts
-        ├── help.md       # 帮助文案（标题 + 配图名 + 正文）· help pages
-        └── raw/    179   # 每表一份 JSONL，按 id 排序 · one JSONL per table
+    ├── <lang>/
+    │   ├── _index.md     # 表清单与条数 · table list & row counts
+    │   └── help.md       # 帮助文案（标题 + 配图名 + 正文）· help pages
+        ├── levelentity.jsonl # 关卡实体 206,046 条（不分语言）· level entities, language-neutral
+    └── <lang>/raw/  179  # 每表一份 JSONL，按 id 排序 · one JSONL per table
 ```
 
 ## 说明 Notes
@@ -43,10 +44,13 @@ Text/
   `Text/export/` is derived from ConfigDB and can be regenerated at any time.
 - 帮助文案的配图在 `Textures/UI/Help/` 下，文件名与 `help.md` 中标注的一致。
   Help page illustrations live in `Textures/UI/Help/`, matching the names in `help.md`.
-- `Text/ConfigDB/db_level_entity.db`（147 MB）超出单文件 100 MB 上限，未收录；
-  它是关卡实体数据，不影响此处的文本内容。
-  `Text/ConfigDB/db_level_entity.db` (147 MB) exceeds the 100 MB per-file limit
-  and is not included; it holds level-entity data, not text.
+- `Text/ConfigDB/db_level_entity.db`（147 MB）超出单文件 100 MB 上限，未收录，
+  但其内容已导出为 `Text/export/levelentity.jsonl`（206,046 条：实体类型、
+  所属地图、关卡编辑器命名与 AI 状态标签）。该表不参与本地化，无多语言版本。
+  `Text/ConfigDB/db_level_entity.db` (147 MB) exceeds the 100 MB per-file limit,
+  so its contents are provided as `Text/export/levelentity.jsonl` instead
+  (206,046 records: entity type, map, editor names and AI state tags).
+  This table is not localized, so it has no per-language variants.
 
 ## 免责声明 Disclaimer
 
