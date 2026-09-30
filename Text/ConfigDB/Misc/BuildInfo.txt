@@ -1,5 +1,5 @@
-Stream=branch_3.6_final
-Changelist=8370988
-PatchVersion=3.6.0
+Stream=branch_3.7_final
+Changelist=8837363
+PatchVersion=3.7.0
 WaterMask=false
-JSDebugId=branch_3.6_final_8e39aa3f_8370988_176592283
+JSDebugId=branch_3.7_final_b351ca4a_8837363_180055854
