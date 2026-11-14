@@ -3,16 +3,16 @@
 对应 `ConfigDB/zh-Hans/` 下各表的可读导出。
 Readable export of the tables under `ConfigDB/zh-Hans/`.
 
-- `help.md` — 帮助文案 675 条（标题 / 配图文件名 / 正文）
+- `help.md` — 帮助文案 714 条（标题 / 配图文件名 / 正文）
 - `raw/*.jsonl` — 每表一份，按 id 排序，一行一条
 
 | 库 | 表 | 条数 |
 |---|---|---:|
-| lang_multi_text | MultiText | 326662 |
-| lang_speaker | Speaker | 8155 |
+| lang_multi_text | MultiText | 342327 |
+| lang_speaker | Speaker | 8306 |
 | lang_ui_prefabTextItem | PrefabTextItem | 3477 |
 | lang_subtitle_text | SubtitleText | 2639 |
-| lang_multi_text_1sthalf | MultiText | 2417 |
+| lang_multi_text_1sthalf | MultiText | 2149 |
 | lang_item | ItemInfo | 1740 |
 | lang_favor | FavorWord | 1369 |
 | lang_instance_dungeon | InstanceDungeon | 1237 |
@@ -36,15 +36,15 @@ Readable export of the tables under `ConfigDB/zh-Hans/`.
 | lang_scenestep | SceneStepConfig | 273 |
 | lang_property | PropertyIndex | 271 |
 | lang_role_reson | RoleResonance | 270 |
-| lang_occupation | OccupationConfig | 254 |
+| lang_occupation | OccupationConfig | 257 |
 | lang_shop | ShopFixed | 250 |
 | lang_compose | SynthesisFormula | 219 |
 | lang_achievement | Achievement | 218 |
 | lang_handbook | MonsterHandBook | 212 |
 | lang_handbook | ItemHandBook | 199 |
+| lang_hot_patch | HotPatchText | 199 |
 | lang_monster_Info | MonsterInfo | 195 |
 | lang_guide_new | GuideFocusNew | 193 |
-| lang_hot_patch | HotPatchText | 188 |
 | lang_weapon | WeaponReson | 175 |
 | lang_quest | Quest | 174 |
 | lang_generic_tips | GenericPrompt | 166 |
@@ -162,23 +162,24 @@ Readable export of the tables under `ConfigDB/zh-Hans/`.
 | lang_bag | PackageSort | 4 |
 | lang_compose | SynthesisLevel | 4 |
 | lang_handbook | ItemHandBookType | 4 |
-| lang_monsterDisplay | MonsterDisplay | 4 |
 | lang_monster_Info | MonsterRarity | 4 |
+| lang_monsterDisplay | MonsterDisplay | 4 |
 | lang_once_tower_challenge | TowerChallengeTypeInfo | 4 |
 | lang_scenegameplay | SceneGameplay | 4 |
 | lang_time_of_day | DaySelectPreset | 4 |
-| lang_UiHotKot | HotKeyMap | 3 |
 | lang_advice | AdviceParams | 3 |
+| lang_AvgLocationChange | AvgLocationChange | 3 |
 | lang_handbook | ChipType | 3 |
 | lang_mail | MailFilter | 3 |
 | lang_parkourchallenge | ParkourChallenge | 3 |
 | lang_role | RoleQualityInfo | 3 |
 | lang_roleDescription | RoleDescription | 3 |
 | lang_roleInfluence | RoleInfluence | 3 |
-| Sneak | Sneak | 2 |
+| lang_UiHotKot | HotKeyMap | 3 |
 | lang_chat | Chat | 2 |
 | lang_menu | ImageDefaultConfig | 2 |
 | lang_phantom | PhantomSkillType | 2 |
+| Sneak | Sneak | 2 |
 | lang_areaquest | AreaQuestArea | 1 |
 | lang_common_param | CommonParam | 1 |
 | lang_dragon_ball | DragonPool | 1 |
