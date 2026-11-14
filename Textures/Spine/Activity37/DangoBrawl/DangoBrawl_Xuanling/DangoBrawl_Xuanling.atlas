@@ -1,113 +1,113 @@
 DangoBrawl_Xuanling.png
-size:1024,1024
-filter:Linear,Linear
-scale:0.48
+	size: 1024, 1024
+	filter: Linear, Linear
+S
+	bounds: 243, 539, 52, 217
+	offsets: 416, 318, 872, 562
+	rotate: 90
 XX
-bounds:2,351,278,116
-rotate:90
+	bounds: 902, 393, 278, 116
+	rotate: 90
 yang
-bounds:710,459,336,241
-rotate:90
+	bounds: 762, 686, 336, 241
+	rotate: 90
 ←
-bounds:781,881,133,133
+	bounds: 552, 160, 133, 133
 ←1
-bounds:2,216,133,133
+	bounds: 2, 180, 133, 133
 右前发
-bounds:620,8,243,364
+	bounds: 210, 189, 243, 364
+	rotate: 270
 右鬓
-bounds:751,45,108,264
+	bounds: 174, 107, 108, 264
+	rotate: 270
 后发_1
-bounds:721,763,114,111
-offsets:0,0,114,112
+	bounds: 58, 68, 114, 112
 后发_2
-bounds:430,372,74,124
-rotate:90
+	bounds: 612, 59, 74, 124
+	rotate: 90
 后发_3
-bounds:62,431,686,314
+	bounds: 43, 439, 686, 314
 呆毛
-bounds:510,142,90,98
-rotate:270
+	bounds: 924, 53, 90, 98
+	rotate: 270
 图层 238
-bounds:422,728,358,286
+	bounds: 422, 736, 358, 286
 图层 25
-bounds:182,234,417,243
-圣痕
-bounds:120,351,25,93
+	bounds: 685, 286, 417, 243
+	rotate: 90
 左前发
-bounds:602,213,286,366
-rotate:270
+	bounds: 2, 291, 286, 366
+	rotate: 90
 左前发yy
-bounds:135,528,35,51
+	bounds: 982, 971, 35, 51
 左鬓
-bounds:332,27,129,205
+	bounds: 555, 299, 129, 205
 生气
-bounds:240,586,316,141
+	bounds: 221, 593, 316, 141
 羞怒右眼_1
-bounds:197,389,62,39
+	bounds: 118, 714, 62, 39
 羞怒右眼_2
-bounds:370,529,122,46
-offsets:0,0,122,47
+	bounds: 368, 308, 122, 47
 羞怒右眼_3
-bounds:79,732,16,13
+	bounds: 444, 1009, 16, 13
 羞怒右眼_4
-bounds:659,494,85,82
-offsets:0,0,85,83
+	bounds: 2, 582, 85, 83
 羞怒嘴
-bounds:137,701,28,9
+	bounds: 482, 1013, 28, 9
 羞怒左眼_1
-bounds:422,741,62,39
+	bounds: 157, 696, 62, 39
 羞怒左眼_2
-bounds:247,539,122,45
-offsets:0,0,122,46
+	bounds: 737, 79, 122, 45
+	offsets: 0, 0, 122, 46
 羞怒左眼_3
-bounds:42,669,17,12
+	bounds: 530, 1010, 17, 12
 羞怒左眼_4
-bounds:452,86,85,79
+	bounds: 50, 509, 85, 79
 羞怒脸红
-bounds:2,703,75,42
+	bounds: 731, 713, 75, 42
 脸2
-bounds:2,747,418,267
+	bounds: 2, 755, 418, 267
 饰品_1
-bounds:151,468,36,46
+	bounds: 422, 744, 36, 46
 饰品_2
-bounds:169,690,37,55
+	bounds: 2, 698, 37, 55
 饰品_3
-bounds:207,661,20,27
+	bounds: 422, 995, 20, 27
 饰品_4
-bounds:2,110,104,329
-rotate:90
+	bounds: 687, 180, 104, 329
+	rotate: 90
 饰品_51
-bounds:829,778,101,149
-offsets:0,0,113,175
-rotate:270
+	bounds: 386, 340, 101, 150
+	offsets: 0, 0, 113, 175
+	rotate: 90
 饰品_52
-bounds:252,362,67,169
-offsets:46,6,113,175
-rotate:90
+	bounds: 841, 324, 67, 169
+	offsets: 46, 6, 113, 175
+	rotate: 90
 饰品_6
-bounds:837,9,103,223
-rotate:180
+	bounds: 493, 67, 103, 223
+	rotate: 90
 饰品_61b
-bounds:418,2,129,249
-rotate:90
+	bounds: 304, 64, 129, 249
+	rotate: 90
 饰品_7
-bounds:59,8,70,258
-offsets:62,1,132,259
-rotate:90
+	bounds: 829, 388, 71, 258
+	offsets: 61, 1, 132, 259
 饰品_7b
-bounds:2,47,94,284
-offsets:64,1,158,285
-rotate:90
+	bounds: 738, 121, 94, 284
+	offsets: 64, 1, 158, 285
+	rotate: 90
 饰品yy_1
-bounds:135,712,32,33
+	bounds: 753, 989, 32, 33
 饰品yy_2
-bounds:42,632,33,26
-offsets:0,0,33,43
+	bounds: 787, 996, 33, 26
+	offsets: 0, 0, 33, 43
 饰品yy_3
-bounds:42,683,21,19
+	bounds: 942, 1003, 21, 19
 饰品yy_4
-bounds:137,190,72,89
+	bounds: 808, 367, 72, 89
 饰品yy_5
-bounds:120,466,29,142
+	bounds: 654, 481, 29, 142
 饰品yy_52
-bounds:2,636,39,66
+	bounds: 734, 764, 39, 66
