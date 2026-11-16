@@ -19,7 +19,8 @@ Textures/
 ├── Spine/          1882  # 2D 骨骼动画工程 (.skel/.atlas/.png) · 2D skeletal animation projects
 ├── Role/            545  # 角色相关 UI · role-related UI
 ├── Share/           109  # 角色/武器分享大图 (2560×1440) · share cards
-└── Card/             56  # 标题卡片背景 (388×72) · title card backgrounds
+├── Card/             56  # 标题卡片背景 (388×72) · title card backgrounds
+└── Script/          203  # 场景招牌与符号文字 · signage and cipher-script sheets
 
 Text/
 ├── ConfigDB/             # 文案数据库 · text databases (SQLite)
